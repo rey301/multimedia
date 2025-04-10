@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    background-color: #FBFCFC;
+    font-family: sans-serif;
+}
+
+/*Navigation section*/
+.home-symbol {
+    float: left;
+    width: 35px;
+    height: 35px;
+    padding: 6px 5px;
+}
+
+.home-symbol .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.home-symbol:hover .img-top {
+    background-color: #000000;
+    display: inline;
+    float: left;
+    width: 35px;
+    height: 35px;
+    padding: 6px 5px;
+}
+
+#navbar {
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+	list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+    float:left;
+}
+
+li a, .dropButton {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+
+li a:hover, .dropDown:hover .dropButton {
+    background-color: #000000;
+    color: white;
+}
+
+.dropDownContent {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 135px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropDownContent a {
+    color: black;
+    padding: 14px 25px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}
+
+.dropDownContent a:hover {
+    background-color: #D5DFE5;
+    color: black;
+}
+
+.dropDown:hover .dropDownContent {
+    display: block;
+}
+
+img.active {
+    background-color: #ECD444;
+    float: left;
+    width: 35px;
+    height: 35px;
+    padding: 6px 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.active {
+    background-color: #ECD444;
+    color: #000000;
+}
+
+/*Main section*/
+article {
+    margin: 0 auto;
+    padding: 16px;
+}   
+
+h1 {
+    text-align: center;
+	text-shadow: 3px 2px #ECD444;
+	font-size: 44px
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    color: black;
+	width: 700px;
+	margin: 0 auto;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+video {
+    margin: 0 auto;
+    display: block;
+}
+
+.backButton {
+	background-color: #ECD444;
+    color: black;
+	border: none;
+    padding: 7px 16px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+	cursor: pointer;
+  	transition-duration: 0.4s;
+}
+
+.backButton:hover {
+  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#report {
+    width: 800px; 
+    height: 2100px;
+}
+
+#reportDiv, #lab4Div, #lab33Div {
+    text-align: center;
+}
+
+#lab4 {
+    width: 800px;
+    height: 600px;
+}
+
+#lab33 {
+    width: 780px;
+    height: 600px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.sticky + article {
+    padding-top: 60px;
+}
+
+/*Vector Animation*/
+#svg {
+    width: 799px;
+    height: 599px;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#playButton {
+    background-color: black; 
+    border: 5px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#button {
+    text-align: center;
+	margin-bottom: 16px;
+}
+
+#playButton:hover {
+    background-color: white; 
+    color: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

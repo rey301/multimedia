@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="MainStyle.css">
+	<title>
+		Coursework
+	</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <ul>
+            <li>
+                <a class="home-symbol" href="Home Page.html">
+                    <img src="home-symbol.svg" alt="Home Page" />
+                    <img src="home-symbol-white.svg" class="img-top" alt="Home Page">
+                </a>
+            </li>
+            <li><a href="Video.html">Video</a>
+            <li><a href="Hobbies.html">Hobbies</a>
+            <li class="dropDown">
+                <a class="active" ,"dropButton" href="javascript:void(0)">Coursework</a>
+                <div class="dropDownContent">
+                    <a href="Report Page.html">Report</a>
+                    <a href="Lab 3.3 Page.html">Lab 3.3</a>
+                    <a href="Lab 4 Page.html">Lab 4</a>
+                </div>
+            </li>
+            <li><a href="Vector Animation.html">Vector Animation</a>
+        </ul>
+    </div>
+
+    <article>
+        <h2>
+            Report
+        </h2>
+        <div id="reportDiv">
+            <embed id="report" src="Report.pdf">
+        </div>
+    </article>
+	
+	<footer>
+		<div id="button">
+			<button class="button backButton" onclick="goBack()">Back</button>
+		</div>
+    </footer>
+	<script src="backScript.js"></script>
+    <script src="stickyNavbar.js" type="text/javascript"></script>
+</body>
+</html>
