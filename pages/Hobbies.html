@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../styles/MainStyle.css" />
+		<title>Hobbies</title>
+	</head>
+
+	<body>
+		<div id="navbar">
+			<ul>
+				<li>
+					<a class="home-symbol" href="../index.html">
+						<img
+							class="active"
+							src="../assets/home-symbol.svg"
+							alt="Home Page"
+						/>
+						<img
+							src="../assets/home-symbol-white.svg"
+							class="img-top"
+							alt="Home Page"
+						/>
+					</a>
+				</li>
+				<li><a href="../pages/Video.html">Video</a></li>
+				<li>
+					<a class="active" href="../pages/Hobbies.html">Hobbies</a>
+				</li>
+				<li class="dropDown">
+					<a class="dropButton" href="javascript:void(0)"
+						>Coursework</a
+					>
+					<div class="dropDownContent">
+						<a href="../pages/Report Page.html">Report</a>
+						<a href="../pages/Lab 3.3 Page.html">Lab 3.3</a>
+						<a href="../pages/Lab 4 Page.html">Lab 4</a>
+					</div>
+				</li>
+				<li>
+					<a href="../pages/Vector Animation.html"
+						>Vector Animation</a
+					>
+				</li>
+			</ul>
+		</div>
+
+		<article>
+			<h2>A hobby: Solving rubik's cubes</h2>
+			<p>
+				An activity I like to do is while I have some spare time, when
+				I'm bored, on the train etc. is solve a rubiks cube as fast as I
+				can. It involves recognising patterns on the cube and executed
+				memorised algorithms that solve a particular part of the cube. I
+				try to learn more algorithms everyday to help me get better
+				times; right now my fastest time is 18 seconds.
+			</p>
+			<img
+				id="oldRubiksCube"
+				src="../assets/images/magic-cube.jpg"
+				alt="Rubik's Cube"
+				width="302"
+				height="229"
+			/>
+		</article>
+
+		<footer>
+			<div id="button">
+				<button class="button backButton" onclick="goBack()">
+					Back
+				</button>
+			</div>
+		</footer>
+		<script src="../scripts/backScript.js"></script>
+
+		<script
+			src="../scripts/stickyNavbar.js"
+			type="text/javascript"
+		></script>
+	</body>
+</html>
